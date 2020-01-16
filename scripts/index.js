@@ -5,7 +5,7 @@ const titleMessage = document.getElementById("title-message");
 addBtn.addEventListener('click', handleAdd);
 let i = localStorage.length;
 updateList();
-
+// leaderboard test
 async function handleAdd(e){
     e.preventDefault();
     if(addTxt.value==""){
